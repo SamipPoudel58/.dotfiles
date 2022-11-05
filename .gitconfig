@@ -1,0 +1,14 @@
+[user]
+	email = sawmeep58@gmail.com
+	name = Samip Poudel
+[core]
+	editor = code --wait
+	autocrlf = input
+	longpaths = true
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[alias]
+	loag = log --oneline --all --graph
+	loa = log --oneline --all
