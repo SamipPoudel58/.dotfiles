@@ -18,6 +18,8 @@ if windows; then
 
     ln -s "$SCRIPT_DIR"/.hyper.js ~/AppData/Roaming/Hyper/.hyper.js
 
+    ln -s ~/.dotfiles/oh-my-posh/themes ~/scoop/apps/oh-my-posh/current/themes
+
     ln -s "$SCRIPT_DIR"/windows_terminal/settings.json ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json
 
     echo "Import Complete!"
