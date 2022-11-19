@@ -31,13 +31,13 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{ce11dbb3-7a23-4c9a-9424-717e5c825389}",
     "minimizeToNotificationArea": false,
     "profiles": 
     {
         "defaults": 
         {
-            "cursorShape": "vintage",
+            "cursorShape": "filledBox",
             "font": 
             {
                 "face": "FiraCode NF"
@@ -48,9 +48,11 @@
         "list": 
         [
             {
+                "colorScheme": "Campbell",
                 "font": 
                 {
-                    "size": 11
+                    "size": 11,
+                    "weight": "normal"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -114,14 +116,14 @@
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#76736C",
-            "brightBlue": "#3B78FF",
+            "brightBlue": "#0096FA",
             "brightCyan": "#61D6D6",
-            "brightGreen": "#16C60C",
+            "brightGreen": "#89C605",
             "brightPurple": "#B4009E",
             "brightRed": "#E74856",
             "brightWhite": "#F2F2F2",
             "brightYellow": "#F9F1A5",
-            "cursorColor": "#39FA73",
+            "cursorColor": "#FE2219",
             "cyan": "#22D3EE",
             "foreground": "#CCCBCB",
             "green": "#BEF264",
