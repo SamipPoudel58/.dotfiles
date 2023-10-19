@@ -8,15 +8,23 @@
       "type": "prompt",
       "alignment": "left",
       "segments": [
+      {
+          "type": "python",
+          "style": "diamond",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#10131e",
+          "background": "#fbbf24",
+          "template": " \ue606 {{ .Venv }} {{ .Full }} "
+        },
         {
           "type": "text",
           "style": "diamond",
-          "background": "#0096fa",
-          "foreground": "#0096fa",
+          "background": "#0ea5e9",
+          "foreground": "#0ea5e9",
           "template": "\ue0b0"
         },
         {
-          "background": "#0096fa",
+          "background": "#0ea5e9",
           "foreground": "#10131e",
           "properties": {
             "home_icon": "~",
@@ -36,7 +44,7 @@
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}yellow{{ end }}"
           ],
-          "template": " \uf113 {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} \u2502{{ end }}{{ if .Staging.Changed }}{{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}}{{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
+          "template": " \uf113 {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} \u2502{{ end }}{{ if .Staging.Changed }}{{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ue257 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
           "properties": {
             "add_icon": "\uf916 ",
             "branch_ahead_icon": "\u2191",
